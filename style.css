@@ -1,0 +1,330 @@
+.navbar{
+	background-color: #000 !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body { 
+    padding-top: 50px; 
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    body {
+    margin-top:5px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:990px) {
+  body {
+    margin-top:5px;
+  }
+}
+@media screen and (min-width:991px) and (max-width:1200px) {
+  body {
+    margin-top:5px;
+  }  
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : landscape) {
+        /*Put your CSS here for 200px to 767px width devices (cover all mobile landscape width */
+ }
+
+
+ /*custom styling for buttons and icons */
+.btn-info {
+    color: #000 !important;
+	background-color: #000 !important;
+	border-color:#000 !important;
+}
+
+input[type=email] {
+  max-width: 300px;
+}
+
+input[type=text] {
+  max-width: 300px;
+}
+
+select {
+	max-width: 300px;
+}
+
+form label{
+  color: #fff;
+}
+/*
+.btn {
+    color: #000 !important;
+	background-color: #000 !important;
+	border-color:#000 !important;
+}
+*/
+.fa-arrow-right {
+	color: white;
+}
+
+.fa-facebook {
+	color: black;
+}
+
+.fa-twitter {
+	color: black;
+}
+
+.fa-skype {
+	color: black;
+}
+
+.fa-google {
+	color: black;
+}
+
+/*Container to make calendar responsive*/
+.responsive-iframe-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.fluid-bg-gradient {
+    background: url('images/backgrounds/bg.png') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.fluid-bg-abstract {
+    background: url('images/backgrounds/bg3.png') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.fluid-bg-abstract-csc {
+    background: url('images/backgrounds/bg4.png') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.fluid-bg-solid {
+    background: url('images/backgrounds/ccdc_bg.png') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.light-box-spacing img{
+	padding-top: 6px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 25px;	
+}
+
+.round-images img{
+	border-radius: 25px;	
+}
+
+.p-wrapper p{
+	color:white;
+	font-family:'hemi_head';
+	font-size:28px;
+}
+
+h2.global{
+	color:white;
+}
+
+h1.global-h1{
+	color:white;
+}
+
+.li-wrapper li{
+	color:white;
+	
+}
+
+.card-bg-wrapper{
+	
+}
+
+html, body {
+  overflow-x:hidden 
+} 
+
+/*Drop down background color*/
+.navbar-nav > li > .dropdown-menu { 
+
+background-color: #000; 
+
+}
+
+/*Drop down item text color*/
+.dropdown-menu a{
+    color: #A9A9A9 !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    color: #FFFFFF !important;
+    background-color: rgba(33,33,33,1.0);
+}
+
+@font-face {
+    font-family: "hemi_head";
+    src: url(fonts/hemi_head.ttf);
+}
+
+.custom-font{
+	font-family: 'hemi_head';
+	color:white;
+	font-size:75px;
+}
+.cscustom-font{
+	font-family: 'hemi_head';
+	color:white;
+	
+}
+
+.ccdc-text p{
+	font-family: 'hemi_head';
+	color:white;
+	font-size:22px;
+}
+
+.ccdc-text-heading h3{	
+	color:white;
+	
+}
+
+.col-sm{
+	padding-top: 20px;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top:0; right: 0; bottom: 0; left: 0;
+ /* display: flex;
+  align-items: center;
+  justify-content: center;
+*/
+
+}
+@media screen and (min-width:1501px) and (max-width:3000px) {
+#lg{
+  padding-top:100px;
+  padding-bottom:0px;
+ }
+
+#mlogo{
+ width: 700px;
+ height:700px;
+ }
+}
+@media screen and (min-width:1301px) and (max-width:1500px) {
+#lg{
+  padding-top:20px;
+  padding-bottom:0px;
+ }
+
+#mlogo{
+ width: 650px;
+ height:650px;
+ }
+}
+@media screen and (min-width:1151px) and (max-width:1300px) {
+#lg{
+  padding-top:20px;
+  padding-bottom:0px;
+ }
+
+#mlogo{
+ width: 650px;
+ height:650px;
+ }
+}
+@media screen and (min-width:951px) and (max-width:1150px) {
+#lg{
+  padding-top:0px;
+  padding-bottom:0px;
+ }
+
+#mlogo{
+ width: 550px;
+ height:550px;
+ }
+}
+@media screen and (min-width:761px) and (max-width:950px) {
+
+ #lg{
+  padding-top:35px;
+  padding-bottom:0px;
+ }
+ #ft{
+  background-color: #000;
+  padding-bottom:10px;
+}
+#mlogo{
+ width: 350px;
+ height:350px;
+ }
+}
+
+@media screen and (min-width:601px) and (max-width:760px) {
+ #lg{
+  padding-top:20px;
+  padding-bottom:0px;
+ }
+ #ft{
+  background-color: #000;
+  padding-bottom:300px;
+ }
+ #mlogo{
+ width: 300px;
+ height:300px;
+ }
+}
+
+@media screen and (min-width:561px) and (max-width:600px) {
+ #lg{
+  padding-top:0px;
+  padding-bottom:0px;
+ }
+ #ft{
+  background-color: #000;
+  padding-bottom:300px;
+ }
+ #mlogo{
+ width: 300px;
+ height:300px;
+ }
+
+}
+@media screen and (min-width:100px) and (max-width:560px) {
+ #lg{
+  padding-top:10px;
+  padding-bottom:0px;
+ }
+
+ #mlogo{
+ width: 200px;
+ height:200px;
+ }
+
+}
